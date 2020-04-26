@@ -2,7 +2,7 @@
 
 ** NOTE: Download one file only and the name of file must be docker-compose.yml only.
 
-Requirements: docker-compose, docker and appache server
+Requirements: docker-compose, docker and apache server
 
 Method :
 
