@@ -4,7 +4,7 @@ services:
   wp:
     image: wordpress:latest
     ports:
-      - 1234:80
+      - 80:80
     volumes:
       - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./wp-app:/var/www/html 
