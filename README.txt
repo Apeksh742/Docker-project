@@ -1,5 +1,7 @@
 # Docker-project
 
+NOTE: Download any one file only and the name must be docker-compose.yml only.
+
 install docker-compose and docker on your os.
 
 Method :
