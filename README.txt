@@ -1,14 +1,14 @@
 # Docker-project
 
-NOTE: Download any one file only and the name must be docker-compose.yml only.
+** NOTE: Download one file only and the name of file must be docker-compose.yml only.
 
-install docker-compose and docker on your os.
+Requirements: docker-compose, docker and appache server
 
 Method :
 
 get docker-compose.yml and in same directory run  # docker-compose up
 
-Alterate :
+Alternate :
 
 If earlier method doesn't work properly 
 
