@@ -1,6 +1,6 @@
 # Docker-project
 
-** NOTE: Download one file only and the name of file must be docker-compose.yml only.
+** NOTE: Get one file only and the name of file must be docker-compose.yml only.
 
 Requirements: docker-compose, docker and apache server
 
