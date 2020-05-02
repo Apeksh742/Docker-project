@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  wpos:
+    image: wordpress:latest
+    ports:
+      - 1234:80
+    restart: always
+    volumes:
+      - wp_storage:/var/www/html 
+      
+    environment:
+      WORDPRESS_DB_HOST: dbos
+      WORDPRESS_DB_NAME: mydb
+      WORDPRESS_DB_USER: apeksh
+      WORDPRESS_DB_PASSWORD: redhat
+    depends_on:
+      - dbos
+    links:
+      - dbos
+  dbos:
+    image: mysql:latest
+    restart: always
+    volumes:
+      - mysql_storage:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: mydb 
+      MYSQL_ROOT_PASSWORD: rootpass 
+      MYSQL_USER: apeksh
+      MYSQL_PASSWORD: redhat
+    
+volumes:
+  wp_storage:
+  mysql_storage:
