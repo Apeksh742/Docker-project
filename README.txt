@@ -12,7 +12,7 @@ Alternate :
 
 If earlier method doesn't work properly 
 
-get docker-compose(1).yml and rename it to docker-compose.yml and in same directory run command # docker-compose up
+get docker-compose-alternate.yml and rename it to docker-compose.yml and in same directory run command # docker-compose up
 the container will get set-up and you will be ready to go
 
 
